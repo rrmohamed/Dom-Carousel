@@ -1,0 +1,28 @@
+.item{
+    position: relative;
+    cursor: pointer;
+}
+.item .info{
+    position: absolute;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    bottom: 30px;
+    left: 10%;
+}
+
+.light-box{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-color:rgba(0,0,0,0.5);
+}
+.light-box-item{
+    width: 45%;
+    height: 500px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
